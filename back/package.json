@@ -1,0 +1,47 @@
+{
+  "name": "omdb-back",
+  "version": "1.0.0",
+  "description": "api movie site",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha --watch test/**.js",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/missvico/omdb.git"
+  },
+  "keywords": [
+    "movies",
+    "series",
+    "actors",
+    "directors"
+  ],
+  "author": "Victoria Di Liscia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/missvico/omdb/issues"
+  },
+  "homepage": "https://github.com/missvico/omdb#readme",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "morgan": "^1.10.0",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "pg": "^8.2.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.21.10",
+    "volleyball": "^1.5.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-spies": "^1.0.0",
+    "mocha": "^7.1.2",
+    "nodemon": "^2.0.4",
+    "sinon": "^9.0.2"
+  }
+}
